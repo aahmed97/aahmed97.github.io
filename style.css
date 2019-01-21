@@ -1,0 +1,281 @@
+header
+{
+    height:10vh;
+    width:100vw;
+    padding:0;
+    margin:0;
+    background-color:363740;
+}
+
+body
+{
+    margin:0;
+    padding:0;
+}
+
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin:15px;
+}
+
+.horizbar
+{
+    margin:0;
+    padding:0;
+}
+.main-nav li
+{
+    display:inline-block;
+}
+
+.main-nav li a
+{
+    color:white;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-family: -apple-systpx, BlinkMacSystpxFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5vw;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.myname
+{
+    height:100vh;
+    width:100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(mainimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top:-55px;
+}
+
+.myname > h1
+{
+    color:white;    
+    text-align: center;
+    position:relative;
+    top:40vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:5em;
+}
+
+.aboutme
+{
+    background-color:545560;
+    text-align:center;  
+    padding:2vw;
+    height:100%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutme h1 
+{
+    margin-bottom:50px;
+    color:white;
+}
+.aboutme p
+{
+    color:white;
+    font-size: 1.25em;
+    margin-left:8vw;
+    margin-right:10vw;
+    text-align:justify;
+}
+.projects
+{
+    position:relative;
+    top:-22px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(project.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align:center;
+    height:100%;
+    width:100%;
+    color:white;
+}   
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height:100%;
+  width:100%;
+}
+
+.container > div
+{
+    flex: 1;
+    width : 33.33vw;
+    height:100%;
+    width:100%;
+    padding:2vw;
+}
+
+.right
+{
+    padding-right:20px;
+}
+
+.container > div p
+{
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+.Skills
+{
+    width:100vw;
+    height:75vh;
+}
+
+.contact > h1 
+{
+    color:white;
+} 
+
+.contact
+{
+    height:50vh;
+    width:100vw;
+    background-color: 545560;
+    margin-top:-35px;
+}
+
+
+.email
+{
+    font-size: 1.25em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: relative;
+    top:20px;
+    padding:5px;
+}
+
+.gmailimg
+{
+    height:20px;
+    width:20px;
+    position: relative;
+    top:5px;
+    padding-right:5px;
+}
+
+.phone
+{
+    text-align: center;
+    font-size: 1.25em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top:20px;
+    padding:5px;
+}
+
+.phoneimg
+{
+    height:20px;
+    width:20px;
+    position: relative;
+    top:5px;
+    right:4px;
+    padding-right:5px;   
+}
+
+.git
+{
+    text-align: center;
+    font-size: 1.25em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top:20px;
+    padding:5px;
+}
+
+.gitlogo
+{
+    height:20px;
+    width:20px;
+    position: relative;
+    top:5px;
+    right:4px;
+    padding-left:20px;   
+}
+
+.link
+{
+    color:white;
+}
+
+.link:hover
+{
+    color:blue !important;
+}
+
+.car 
+{
+    position:relative;
+    top:20px;
+    width:30vw;
+    height:20vh;
+}
+
+.serverclient
+{
+    position:relative;
+    right:25px;
+    width:20vw;
+    bottom:20px;
+    height:35vh;
+
+}
+
+.Skills
+{
+    background-color: 545560;
+    margin-top:-44px;
+}
+
+
+.Skills h1
+{
+    color:white;
+}
+
+
+
+.L, .M, .R 
+{
+    position: relative;
+    left:30px;
+    top:-30px;
+    float:left;
+    width:28%;
+    color:white;
+    padding:30px;
+
+}
+
+.R > ul > li
+{
+    margin: 0 0 20px 0;
+}
+
+.M > ul > li
+{
+    margin: 0 0 20px 0;
+}
+
+.L > ul > li
+{
+    margin: 0 0 20px 0;
+}
