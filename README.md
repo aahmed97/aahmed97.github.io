@@ -8,6 +8,7 @@ A website all about me! This is my first website and helped me to get familiarit
       *Fixing formatting issues when screen is resized. The current best viewing experience is in full screen.
 
 
-Citations: 
-      -https://www.youtube.com/watch?v=a2UnYs9AA_M&t=9s
-      -https://www.w3schools.com/
+Citations:
+ 
+      - https://www.youtube.com/watch?v=a2UnYs9AA_M&t=9s
+      - https://www.w3schools.com/
